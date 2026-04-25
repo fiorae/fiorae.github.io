@@ -1,12 +1,11 @@
 # fiorae.github.io
-FIORAE | Where Light Becomes Memory
 # FIORAE
 
 **Where Light Becomes Memory**
 
 ---
 
-Fiorae is a cinematic and fine art photography project exploring the relationship between light, time, and emotion.
+FIORAE is a cinematic and fine art photography project exploring the relationship between light, time, and emotion.
 
 From vast landscapes to distant galaxies, each frame captures a fleeting moment — transformed into something lasting.
 
@@ -14,7 +13,7 @@ From vast landscapes to distant galaxies, each frame captures a fleeting moment 
 
 ## Vision
 
-Fiorae is not just a collection of images.
+FIORAE is not just a collection of images.
 It is a visual language shaped by light, silence, and atmosphere.
 
 ---
@@ -37,7 +36,7 @@ Subtle motion, light transitions, and atmosphere are part of the storytelling.
 
 ## Copyright
 
-© 2026 Fiorae. All rights reserved.
+© 2026 FIORAE. All rights reserved.
 All images are protected and may not be used without permission.
 
 ---
