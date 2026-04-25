@@ -1,6 +1,6 @@
 # fiorae.github.io
 FIORAE | Where Light Becomes Memory
-# Fiorae
+# FIORAE
 
 **Where Light Becomes Memory**
 
