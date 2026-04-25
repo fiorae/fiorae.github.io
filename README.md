@@ -44,6 +44,3 @@ All images are protected and may not be used without permission.
 ## Contact
 
 [contact@fiorae.com](mailto:contact@fiorae.com)
-
-
-[contact@fiorae.com](mailto:contact@fiorae.com)
