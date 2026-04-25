@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIORAE — Where Light Becomes Memory</title>
+
+  <!-- SEO cơ bản -->
+  <meta name="description" content="Fiorae — Fine Art & Cinematic Photography. Where Light Becomes Memory." />
+  <meta property="og:title" content="Fiorae" />
+  <meta property="og:description" content="Where Light Becomes Memory" />
+  <meta property="og:type" content="website" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #e29ca4;
+      --soft-bg: #fbf6f7;
+      --accent: #9cb59d;
+      --text: #5f5657;
+      --white: #ffffff;
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--soft-bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      padding: 20px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 30% 30%, rgba(226,156,164,0.15), transparent 60%),
+                  radial-gradient(circle at 80% 70%, rgba(156,181,157,0.12), transparent 60%);
+      z-index: -1;
+    }
+
+    .logo img {
+      max-width: 340px;
+      filter: drop-shadow(0 15px 25px rgba(226,156,164,0.2));
+      margin-bottom: 30px;
+    }
+
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      opacity: 0.7;
+      max-width: 500px;
+      margin: 0 auto 30px;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 40px;
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 11px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      transition: 0.4s;
+    }
+
+    .btn:hover {
+      background: var(--primary);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 15px 25px rgba(226,156,164,0.25);
+    }
+
+    /* ===== ABOUT ===== */
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    .section p {
+      line-height: 1.9;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    /* ===== PORTFOLIO PREVIEW ===== */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 40px;
+    }
+
+    .grid div {
+      height: 220px;
+      background: #eee;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .grid div::after {
+      content: "Coming Soon";
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: #999;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 480px) {
+      .logo img { max-width: 260px; }
+      .title { font-size: 14px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <div class="logo">
+        <img src="logo-fiorae.png" alt="Fiorae Logo">
+      </div>
+      <div class="title">Where Light Becomes Memory</div>
+      <p class="subtitle">
+        Fine art photography exploring light, silence, and emotion — from vast landscapes to distant stars.
+      </p>
+      <a href="mailto:contact@fiorae.com" class="btn">Contact</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About Fiorae</h2>
+    <p>
+      Fiorae is a visual journey shaped by light and time. Each image captures a fleeting moment — a quiet landscape, a distant galaxy, or a human expression — transformed into something lasting.
+    </p>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section">
+    <h2>Selected Works</h2>
+    <div class="grid">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Fiorae — All rights reserved.
+  </footer>
+
+</body>
+</html>
