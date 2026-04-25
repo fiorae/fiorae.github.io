@@ -20,7 +20,7 @@ It is a visual language shaped by light, silence, and atmosphere.
 
 ## Selected Focus
 
-* Landscape Photography
+* Landscape
 * Astrophotography
 * Portrait (Natural Light / Zeiss Rendering)
 
@@ -42,5 +42,8 @@ All images are protected and may not be used without permission.
 ---
 
 ## Contact
+
+[contact@fiorae.com](mailto:contact@fiorae.com)
+
 
 [contact@fiorae.com](mailto:contact@fiorae.com)
